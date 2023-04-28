@@ -17,12 +17,13 @@
         }
 
         // Update this to your desired email address.
-        $recipient = "contact@yourdomain.com";
+        $recipient = "mainoffice@nwbnr.com";
 		$subject = "Message from $name";
 
         // Email content.
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
+        $email_content .= "Phone: $phone\n\n";
         $email_content .= "Subject: $subject\n\n";
         $email_content .= "Message: $message\n";
 
